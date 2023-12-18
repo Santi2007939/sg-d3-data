@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+svg {
+    width: 800px;
+    height: 600px;
+    background-color: whitesmoke;
+    overflow: visible;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#tooltip {
+    visibility: hidden;
+    width: fit-content;
+    height: fit-content;
+    fill: rgb(250, 215, 215);
+}
+
+rect {
+    z-index: 4;
+    box-sizing: content-box;
+}
+
+text {
+    z-index: 5;
+    font-size: 12px;
+    fill: #2f3a3b;
+}
+
+circle {
+    stroke: black;
+    z-index: 4;
+}

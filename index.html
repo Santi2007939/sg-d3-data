@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scatterplot Graph</title>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">Doping in Professional Bicycle Racing</h1>
+    <svg id="canvas">
+        <g id="tooltip">
+            <rect></rect>
+            <text id="one"></text>
+            <text id="two"></text>
+            <text id="three"></text>
+            <text id="four"></text>
+        </g>
+        <g id="legend" x="800">
+            <g class="legend-label" transform="translate(0,250)"><rect x="760" width="18" height="18" fill="#B2A59B" stroke="black"></rect><text x="755" y="9" dy=".35em" style="text-anchor: end;">Doping allegations</text></g>
+            <g class="legend-label" transform="translate(0,230)"><rect x="760" width="18" height="18" fill="#DED0B6" stroke="black"></rect><text x="755" y="9" dy=".35em" style="text-anchor: end;">No Doping Allegations</text></g>
+        </g>
+    </svg>
+    
+</body>
+<script src="./app.js"></script>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
